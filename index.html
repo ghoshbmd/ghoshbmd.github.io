@@ -1,0 +1,325 @@
+
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sourav Ghosh — Automotive Embedded Engineer</title>
+  <meta name="description" content="Senior Technical Lead with 9+ years in ECU, BMS, and Model-Based Development.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config = { theme: { extend: { fontFamily: { sans: ['Inter', 'ui-sans-serif', 'system-ui'] }, colors: { slate: tailwind.colors.slate, cyan: tailwind.colors.cyan } } } }</script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body class="font-sans text-slate-300">
+  <div class="bg-animated"></div>
+  <div class="bg-grid"></div>
+  <div class="blob c1"></div>
+  <div class="blob c2"></div>
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50 backdrop-blur bg-slate-900/60 border-b border-slate-800/80" data-animate>
+    <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-2 text-cyan-400 font-extrabold tracking-wide text-xl" aria-label="Home">
+        <span>SG</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-8">
+        <a href="#about" class="hover:text-cyan-400">About</a>
+        <a href="#experience" class="hover:text-cyan-400">Experience</a>
+        <a href="#skills" class="hover:text-cyan-400">Skills</a>
+        <a href="#certifications" class="hover:text-cyan-400">Certifications</a>
+        <a href="#contact" class="hover:text-cyan-400">Contact</a>
+      </nav>
+      <button id="menuBtn" class="md:hidden text-cyan-400" aria-label="Toggle navigation"><i data-lucide="menu"></i></button>
+    </div>
+    <div id="mobileMenu" class="md:hidden hidden border-t border-slate-800">
+      <div class="container mx-auto px-4 py-3 grid gap-3">
+        <a href="#about" class="hover:text-cyan-400">About</a>
+        <a href="#experience" class="hover:text-cyan-400">Experience</a>
+        <a href="#skills" class="hover:text-cyan-400">Skills</a>
+        <a href="#certifications" class="hover:text-cyan-400">Certifications</a>
+        <a href="#contact" class="hover:text-cyan-400">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+  <!-- Hero -->
+  <section class="relative" data-animate>
+    <div class="container mx-auto px-4 py-16 md:py-24 grid md:grid-cols-[220px_1fr] gap-10 items-center">
+      <div class="avatar-ring w-44 h-44 md:w-52 md:h-52 rounded-full mx-auto overflow-hidden border border-slate-700/60 shadow-lg">
+        <img src="assets/img/profile.jpg" alt="Sourav Ghosh" class="w-full h-full object-cover"/>
+      </div>
+      <div>
+        <p class="text-sm uppercase tracking-widest text-slate-400 mb-2">Welcome to my portfolio</p>
+        <h1 class="text-4xl md:text-6xl font-extrabold text-slate-100 leading-tight">
+          Sourav <span class="gradient-text">Ghosh</span>
+        </h1>
+        <p class="mt-3 text-lg text-slate-300">Senior Technical Lead · Automotive Embedded Engineer</p>
+        <p class="mt-4 text-slate-400 max-w-3xl">9+ years of experience in ECU development, Battery Management Systems, and Model-Based Development. Specialized in working with Japanese OEMs and leading high-performance teams.</p>
+        <div class="mt-8 flex flex-wrap items-center gap-4">
+          <a href="#contact" class="btn btn-primary">Get In Touch</a>
+          <a href="#experience" class="btn btn-outline">View Work</a>
+          <a href="https://www.linkedin.com/in/sourav-ghosh004/" target="_blank" rel="noreferrer" class="inline-flex items-center gap-2 text-slate-300 hover:text-cyan-400" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+          <a href="mailto:sourav.ghosh196@gmail.com" class="inline-flex items-center gap-2 text-slate-300 hover:text-cyan-400" aria-label="Email"><i data-lucide="mail"></i></a>
+        </div>
+        <div class="mt-10 grid grid-cols-2 sm:grid-cols-4 gap-6">
+          <div class="card p-4 rounded-lg border border-slate-700/60 bg-slate-900/40" data-animate><div class="text-3xl font-extrabold text-cyan-400">9+</div><div class="text-sm text-slate-400">Years of Experience</div></div>
+          <div class="card p-4 rounded-lg border border-slate-700/60 bg-slate-900/40" data-animate><div class="text-3xl font-extrabold text-cyan-400">6+</div><div class="text-sm text-slate-400">Years in Japan</div></div>
+          <div class="card p-4 rounded-lg border border-slate-700/60 bg-slate-900/40" data-animate><div class="text-3xl font-extrabold text-cyan-400">5–8</div><div class="text-sm text-slate-400">Team Members Led</div></div>
+          <div class="card p-4 rounded-lg border border-slate-700/60 bg-slate-900/40" data-animate><div class="text-3xl font-extrabold text-cyan-400">3</div><div class="text-sm text-slate-400">Languages</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="container mx-auto px-4 py-16" data-animate>
+    <h2 class="section-title text-3xl font-bold text-slate-100 mb-6">About Me</h2>
+    <p class="text-slate-300 mb-4">Results-driven Automotive Embedded Engineer with a passion for developing reliable, high-quality solutions. Over 6 years of hands-on experience in Japan working with leading Japanese OEMs, enabling strong cross-cultural collaboration and deep technical expertise.</p>
+    <p class="text-slate-300 mb-4">Specialized in Electronic Control Unit (ECU) development, Battery Management Systems (BMS), and Model-Based Development (MBD). Proficient in requirement analysis, testing methodologies (MIL, SIL, HIL), and ASPICE-compliant processes.</p>
+    <p class="text-slate-300">Currently leading validation teams, managing resources, and ensuring timely project delivery with a proven track record of customer satisfaction and technical excellence.</p>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="container mx-auto px-4 py-16" data-animate>
+    <div class="flex items-center justify-between mb-4">
+      <h2 class="section-title text-3xl font-bold text-slate-100">Experience</h2>
+      <div class="flex items-center gap-2">
+        <button id="expandAll" class="btn btn-outline"><i data-lucide="expand"></i> Expand all</button>
+        <button id="collapseAll" class="btn btn-outline"><i data-lucide="collapse"></i> Collapse all</button>
+      </div>
+    </div>
+
+    <ol class="timeline space-y-6">
+      <!-- KPIT -->
+      <li class="timeline-item exp-item" data-open="false" data-animate>
+        <button class="timeline-head rounded-lg border border-slate-700/60 bg-slate-900/40 p-5 cursor-pointer w-full" aria-expanded="false">
+          <div class="flex flex-wrap items-center justify-between gap-3">
+            <div class="flex items-center gap-3">
+              <i data-lucide="building-2" class="text-cyan-400"></i>
+              <div>
+                <h3 class="text-lg font-semibold text-slate-100">KPIT Technologies GK</h3>
+                <div class="text-slate-300">Senior Technical Lead</div>
+              </div>
+            </div>
+            <div class="flex items-center gap-3 text-xs font-medium tracking-wide text-slate-400">
+              <i data-lucide="calendar"></i>
+              <span>June 2024 – Present · Utsunomiya, Japan</span>
+              <i data-lucide="chevron-right" class="chev"></i>
+            </div>
+          </div>
+        </button>
+        <div class="exp-panel h-0">
+          <div class="mt-3 p-5 rounded-lg border border-slate-700/60 bg-slate-900/50">
+            <ul class="list-disc list-inside space-y-2 text-slate-300">
+              <li>Led validation team for Battery Management System (BMS) with ASPICE V-Model principles</li>
+              <li>Developed functional test cases and verified BMS behavior using A&amp;D HELLOS HIL setup</li>
+              <li>Validated junction box, DCDC pre-charge, and thermal runaway detection</li>
+            </ul>
+            <div class="mt-3 flex flex-wrap gap-2">
+              <span class="px-3 py-1 text-xs rounded-full border border-cyan-600/50 bg-cyan-500/10 text-cyan-300">MATLAB</span>
+              <span class="px-3 py-1 text-xs rounded-full border border-cyan-600/50 bg-cyan-500/10 text-cyan-300">SIMULINK</span>
+              <span class="px-3 py-1 text-xs rounded-full border border-cyan-600/50 bg-cyan-500/10 text-cyan-300">INCA</span>
+              <span class="px-3 py-1 text-xs rounded-full border border-cyan-600/50 bg-cyan-500/10 text-cyan-300">A&amp;D HELLOS</span>
+              <span class="px-3 py-1 text-xs rounded-full border border-cyan-600/50 bg-cyan-500/10 text-cyan-300">BMS</span>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <!-- TCS Japan Senior System Engineer -->
+      <li class="timeline-item exp-item" data-open="false" data-animate>
+        <button class="timeline-head rounded-lg border border-slate-700/60 bg-slate-900/40 p-5 cursor-pointer w-full" aria-expanded="false">
+          <div class="flex flex-wrap items-center justify-between gap-3">
+            <div class="flex items-center gap-3">
+              <i data-lucide="building-2" class="text-cyan-400"></i>
+              <div>
+                <h3 class="text-lg font-semibold text-slate-100">Tata Consultancy Services Japan</h3>
+                <div class="text-slate-300">Senior System Engineer</div>
+              </div>
+            </div>
+            <div class="flex items-center gap-3 text-xs font-medium tracking-wide text-slate-400">
+              <i data-lucide="calendar"></i>
+              <span>Feb 2021 – June 2024 · Atsugi, Japan</span>
+              <i data-lucide="chevron-right" class="chev"></i>
+            </div>
+          </div>
+        </button>
+        <div class="exp-panel h-0">
+          <div class="mt-3 p-5 rounded-lg border border-slate-700/60 bg-slate-900/50">
+            <ul class="list-disc list-inside space-y-2 text-slate-300">
+              <li>BMS control specifications (SOC, SOH, SOP)</li>
+              <li>Delivered customized BMS functionalities for Japanese OEMs</li>
+              <li>Applied Model-Based Development (MBD) for model creation and integration</li>
+            </ul>
+            <div class="mt-3 flex flex-wrap gap-2">
+              <span class="px-3 py-1 text-xs rounded-full border border-cyan-600/50 bg-cyan-500/10 text-cyan-300">MATLAB</span>
+              <span class="px-3 py-1 text-xs rounded-full border border-cyan-600/50 bg-cyan-500/10 text-cyan-300">SIMULINK</span>
+              <span class="px-3 py-1 text-xs rounded-full border border-cyan-600/50 bg-cyan-500/10 text-cyan-300">Embedded Coder</span>
+              <span class="px-3 py-1 text-xs rounded-full border border-cyan-600/50 bg-cyan-500/10 text-cyan-300">Visual Studio</span>
+              <span class="px-3 py-1 text-xs rounded-full border border-cyan-600/50 bg-cyan-500/10 text-cyan-300">CANoe</span>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <!-- TCS Japan System Engineer -->
+      <li class="timeline-item exp-item" data-open="false" data-animate>
+        <button class="timeline-head rounded-lg border border-slate-700/60 bg-slate-900/40 p-5 cursor-pointer w-full" aria-expanded="false">
+          <div class="flex flex-wrap items-center justify-between gap-3">
+            <div class="flex items-center gap-3">
+              <i data-lucide="building-2" class="text-cyan-400"></i>
+              <div>
+                <h3 class="text-lg font-semibold text-slate-100">Tata Consultancy Services Japan</h3>
+                <div class="text-slate-300">System Engineer</div>
+              </div>
+            </div>
+            <div class="flex items-center gap-3 text-xs font-medium tracking-wide text-slate-400">
+              <i data-lucide="calendar"></i>
+              <span>Aug 2019 – Jan 2021 · Atsugi, Japan</span>
+              <i data-lucide="chevron-right" class="chev"></i>
+            </div>
+          </div>
+        </button>
+        <div class="exp-panel h-0">
+          <div class="mt-3 p-5 rounded-lg border border-slate-700/60 bg-slate-900/50">
+            <ul class="list-disc list-inside space-y-2 text-slate-300">
+              <li>Plant models for EV charging (CHAdeMO, CCS2)</li>
+              <li>ECU reprogramming and calibration using ETAS INCA</li>
+              <li>Custom tools for CAN frame verification and diagnostics</li>
+            </ul>
+          </div>
+        </div>
+      </li>
+
+      <!-- TCS India Assistant System Engineer -->
+      <li class="timeline-item exp-item" data-open="false" data-animate>
+        <button class="timeline-head rounded-lg border border-slate-700/60 bg-slate-900/40 p-5 cursor-pointer w-full" aria-expanded="false">
+          <div class="flex flex-wrap items-center justify-between gap-3">
+            <div class="flex items-center gap-3">
+              <i data-lucide="building-2" class="text-cyan-400"></i>
+              <div>
+                <h3 class="text-lg font-semibold text-slate-100">Tata Consultancy Services</h3>
+                <div class="text-slate-300">Assistant System Engineer</div>
+              </div>
+            </div>
+            <div class="flex items-center gap-3 text-xs font-medium tracking-wide text-slate-400">
+              <i data-lucide="calendar"></i>
+              <span>Feb 2017 – Aug 2019 · Nagpur, India</span>
+              <i data-lucide="chevron-right" class="chev"></i>
+            </div>
+          </div>
+        </button>
+        <div class="exp-panel h-0">
+          <div class="mt-3 p-5 rounded-lg border border-slate-700/60 bg-slate-900/50">
+            <ul class="list-disc list-inside space-y-2 text-slate-300">
+              <li>Validated ADAS features (ICC, LDW, LDP, FEB, BSW)</li>
+              <li>Designed and executed test cases using dSPACE and Vector tools</li>
+              <li>Built automation using M-scripting and VBA</li>
+            </ul>
+          </div>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="container mx-auto px-4 py-16" data-animate>
+    <h2 class="section-title text-3xl font-bold text-slate-100 mb-6">Core Skills</h2>
+    <h3 class="text-xl font-semibold text-slate-100 mb-2">Technical Expertise</h3>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="card p-5 rounded-xl border border-slate-700/60 bg-slate-900/40" data-animate><h4 class="text-lg font-semibold text-slate-100">ECU Development</h4><p class="text-slate-300">Automotive ECU development, firmware development, embedded systems</p></div>
+      <div class="card p-5 rounded-xl border border-slate-700/60 bg-slate-900/40" data-animate><h4 class="text-lg font-semibold text-slate-100">Tools &amp; Software</h4><p class="text-slate-300">MATLAB, SIMULINK, INCA, CANoe, dSPACE, Embedded Coder</p></div>
+      <div class="card p-5 rounded-xl border border-slate-700/60 bg-slate-900/40" data-animate><h4 class="text-lg font-semibold text-slate-100">Methodologies</h4><p class="text-slate-300">Model-Based Development (MBD), ASPICE-compliant, ISO 26262</p></div>
+      <div class="card p-5 rounded-xl border border-slate-700/60 bg-slate-900/40" data-animate><h4 class="text-lg font-semibold text-slate-100">Testing</h4><p class="text-slate-300">MIL, SIL, HIL testing, requirement traceability, V-Model</p></div>
+      <div class="card p-5 rounded-xl border border-slate-700/60 bg-slate-900/40" data-animate><h4 class="text-lg font-semibold text-slate-100">Systems</h4><p class="text-slate-300">Battery Management Systems (BMS), EV charging, ADAS, power management</p></div>
+      <div class="card p-5 rounded-xl border border-slate-700/60 bg-slate-900/40" data-animate><h4 class="text-lg font-semibold text-slate-100">Standards</h4><p class="text-slate-300">SAE, IEC, automotive safety standards, ISO 26262 functional safety</p></div>
+    </div>
+
+    <div class="mt-10 grid md:grid-cols-2 gap-6">
+      <div class="card p-5 rounded-xl border border-slate-700/60 bg-slate-900/40" data-animate>
+        <h3 class="text-xl font-semibold text-slate-100 mb-2">Leadership &amp; Languages</h3>
+        <h4 class="font-semibold text-slate-100">Leadership</h4>
+        <ul class="list-disc list-inside text-slate-300 space-y-1">
+          <li>Team leadership (5–8 members)</li>
+          <li>Resource management</li>
+          <li>Cross-functional collaboration</li>
+          <li>Stakeholder communication</li>
+        </ul>
+        <h4 class="font-semibold text-slate-100 mt-4">Languages</h4>
+        <ul class="list-disc list-inside text-slate-300 space-y-1">
+          <li>English</li>
+          <li>Bengali</li>
+          <li>Hindi</li>
+          <li>Japanese (Conversational)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section id="certifications" class="container mx-auto px-4 py-16" data-animate>
+    <h2 class="section-title text-3xl font-bold text-slate-100 mb-6">Certifications</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="card p-6 rounded-xl border border-slate-700/60 bg-slate-900/40" data-animate><h3 class="text-lg font-semibold text-slate-100">EV Battery Management System</h3><div class="text-slate-400">Udemy</div><p class="text-slate-300">Specialized knowledge in BMS design and implementation</p></div>
+      <div class="card p-6 rounded-xl border border-slate-700/60 bg-slate-900/40" data-animate><h3 class="text-lg font-semibold text-slate-100">Managing Jira Projects</h3><div class="text-slate-400">Udemy</div><p class="text-slate-300">Project management and agile workflow expertise</p></div>
+      <div class="card p-6 rounded-xl border border-slate-700/60 bg-slate-900/40" data-animate><h3 class="text-lg font-semibold text-slate-100">JLPT N4 Certification</h3><div class="text-slate-400">Japanese Language Proficiency Test</div><p class="text-slate-300">Official Japanese language certification</p></div>
+    </div>
+  </section>
+
+  <!-- Achievements & Education -->
+  <section class="container mx-auto px-4 py-16" data-animate>
+    <h2 class="section-title text-3xl font-bold text-slate-100 mb-6">Achievements &amp; Education</h2>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="card p-6 rounded-xl border border-slate-700/60 bg-slate-900/40" data-animate>
+        <h3 class="text-xl font-semibold text-slate-100 mb-2">Awards</h3>
+        <div><h4 class="font-semibold text-slate-100">Spot Award</h4><p class="text-slate-300">KPIT Technologies — Outstanding project contribution</p></div>
+        <div class="mt-4"><h4 class="font-semibold text-slate-100">Highest CSAT Award</h4><p class="text-slate-300">Exceptional delivery and client engagement</p></div>
+      </div>
+      <div class="card p-6 rounded-xl border border-slate-700/60 bg-slate-900/40" data-animate>
+        <h3 class="text-xl font-semibold text-slate-100 mb-2">Education</h3>
+        <div><h4 class="font-semibold text-slate-100">B.Tech Electronics &amp; Communication</h4><p class="text-slate-300">Jalpaiguri Government Engineering College (2012–2016) — GPA: 8.78</p></div>
+        <div class="mt-4"><h4 class="font-semibold text-slate-100">Higher Secondary (10+2)</h4><p class="text-slate-300">Garhbeta High School (2010–2012) — Score: 90%</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="container mx-auto px-4 py-16" data-animate>
+    <h2 class="section-title text-3xl font-bold text-slate-100 mb-6">Let's Connect</h2>
+    <p class="text-slate-300 mb-8">I'm always interested in discussing new projects, technical challenges, and opportunities to collaborate on innovative automotive solutions.</p>
+    <div class="grid md:grid-cols-2 gap-10">
+      <div class="space-y-6">
+        <a href="tel:+818087264289" class="card block p-5 rounded-xl border border-slate-700/60 bg-slate-900/40 hover:border-cyan-400" data-animate><h3 class="text-lg font-semibold text-slate-100 flex items-center gap-2"><i data-lucide=phone></i> Phone</h3><div class="text-slate-300">+81 808-726-4289</div></a>
+        <a href="mailto:sourav.ghosh196@gmail.com" class="card block p-5 rounded-xl border border-slate-700/60 bg-slate-900/40 hover:border-cyan-400" data-animate><h3 class="text-lg font-semibold text-slate-100 flex items-center gap-2"><i data-lucide=mail></i> Email</h3><div class="text-slate-300">sourav.ghosh196@gmail.com</div></a>
+        <a href="https://www.linkedin.com/in/sourav-ghosh004/" target="_blank" rel="noreferrer" class="card block p-5 rounded-xl border border-slate-700/60 bg-slate-900/40 hover:border-cyan-400" data-animate><h3 class="text-lg font-semibold text-slate-100 flex items-center gap-2"><i data-lucide=linkedin></i> LinkedIn</h3><div class="text-slate-300">Visit Profile</div></a>
+      </div>
+      <form class="space-y-4" onsubmit="event.preventDefault(); alert('Thanks! This demo form does not submit.');" data-animate>
+        <div>
+          <label class="block text-sm text-slate-400 mb-1">Your Name</label>
+          <input type="text" class="w-full px-4 py-3 rounded-lg bg-slate-800/60 border border-slate-700 text-slate-100 focus:outline-none focus:ring-2 focus:ring-cyan-500" placeholder="Your Name" required>
+        </div>
+        <div>
+          <label class="block text-sm text-slate-400 mb-1">Email Address</label>
+          <input type="email" class="w-full px-4 py-3 rounded-lg bg-slate-800/60 border border-slate-700 text-slate-100 focus:outline-none focus:ring-2 focus:ring-cyan-500" placeholder="Email Address" required>
+        </div>
+        <div>
+          <label class="block text-sm text-slate-400 mb-1">Message</label>
+          <textarea rows="4" class="w-full px-4 py-3 rounded-lg bg-slate-800/60 border border-slate-700 text-slate-100 focus:outline-none focus:ring-2 focus:ring-cyan-500" placeholder="Message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+  </main>
+
+  <footer class="border-t border-slate-800/80 py-8 text-center text-slate-500" data-animate>© 2024 Sourav Ghosh. All rights reserved.</footer>
+
+  <script src="assets/js/main.js"></script>
+  <script>lucide.createIcons();</script>
+</body>
+</html>
