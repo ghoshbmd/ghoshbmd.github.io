@@ -1,1 +1,0 @@
-# ghoshbmd.github.io
