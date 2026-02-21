@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // ── 1. ANIMATED CIRCUIT BACKGROUND ──────────────
   const canvas = document.getElementById('bg-canvas');
-  const ctx = canvas.getContext('3d');
+  const ctx = canvas.getContext('2d');
 
   let W, H, nodes = [], connections = [], pulses = [];
 
