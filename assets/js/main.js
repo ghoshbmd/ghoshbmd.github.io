@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     nodes = [];
     connections = [];
     pulses = [];
-    const count = Math.floor((W * H) / 22000);
+    const count = Math.floor((W * H) / 2200);
     for (let i = 0; i < count; i++) {
       nodes.push({
         x: Math.random() * W,
@@ -231,7 +231,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // ── 10. TYPED TITLE EFFECT ───────────────────────
   const typedEl = document.querySelector('.typed-text');
   if (typedEl) {
-    const texts = ['Senior Technical Lead', 'Automotive ECU Engineer', 'BMS Validation Expert', 'MBD Specialist'];
+    const texts = ['AI Enthusiastic', 'Automotive ECU Engineer', 'BMS Validation Expert', 'MBD Specialist'];
     let textIdx = 0, charIdx = 0, deleting = false;
 
     function type() {
