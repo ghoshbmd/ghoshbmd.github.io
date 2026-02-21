@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // ── 1. ANIMATED CIRCUIT BACKGROUND ──────────────
   const canvas = document.getElementById('bg-canvas');
-  const ctx = canvas.getContext('2d');
+  const ctx = canvas.getContext('3d');
 
   let W, H, nodes = [], connections = [], pulses = [];
 
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     nodes = [];
     connections = [];
     pulses = [];
-    const count = Math.floor((W * H) / 2200);
+    const count = Math.floor((W * H) / 22200);
     for (let i = 0; i < count; i++) {
       nodes.push({
         x: Math.random() * W,
