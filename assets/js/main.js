@@ -231,7 +231,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // ── 10. TYPED TITLE EFFECT ───────────────────────
   const typedEl = document.querySelector('.typed-text');
   if (typedEl) {
-    const texts = ['AI Enthusiastic', 'Automotive ECU Engineer', 'BMS Validation Expert', 'MBD Specialist'];
+    const texts = ['AI Enthusiastic', 'Automotive ECU Engineer'];
     let textIdx = 0, charIdx = 0, deleting = false;
 
     function type() {
